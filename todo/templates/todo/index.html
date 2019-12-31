@@ -48,14 +48,15 @@
 					<div class="col-lg-12">
 						<div class="btn-toolbar">
 							<div class="btn-group">
-								<button type="button" class="btn btn-warning">
+								<a href="{% url 'deleteComplete' %}"><button type="button"  class="btn btn-warning">
 									<i class="glyphicon glyphicon-trash"></i> DELETE COMPLETED
 								</button>
+								</a>
 							</div>
 							<div class="btn-group">
-								<button type="button" class="btn btn-warning">
+								<a href="{% url 'deleteAll' %}"><button type="button" class="btn btn-warning">
 									<i class="glyphicon glyphicon-trash"></i> DELETE ALL
-								</button>
+								</button></a>
 							</div>
 						</div>
 					</div>
